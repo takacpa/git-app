@@ -19,7 +19,6 @@ class ArticlesController < ApplicationController
   def edit
   end
 
-  
   def create
     @article = Article.new(article_params)
 
